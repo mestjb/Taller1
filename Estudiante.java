@@ -11,17 +11,20 @@ public class Estudiante {
     String matricula;
     String carrera;
     String correo;
-
+    
+    //Constructor vacío
     public Estudiante() {
     }
     
+    //Constructor lleno
     public Estudiante(String nombre, String matricula, String carrera, String correo) {
         this.nombre = nombre;
         this.matricula = matricula;
         this.carrera = carrera;
         this.correo = correo;
     }
-
+    
+    //Getters & Setters
     public String getNombre() {
         return nombre;
     }
